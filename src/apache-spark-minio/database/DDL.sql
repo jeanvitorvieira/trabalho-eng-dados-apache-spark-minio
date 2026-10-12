@@ -36,7 +36,7 @@ CREATE TABLE IF NOT EXISTS steam_metrics (
   avg_playtime       INTEGER
 );
 
-CREATE TABLE IF NOT EXISTS walkthrough_videos (
+CREATE TABLE IF NOT EXISTS walkthrough_links (
   game_id  INTEGER NOT NULL REFERENCES games(id),
   url      TEXT NOT NULL
 );
