@@ -37,19 +37,7 @@ INSERT / UPDATE / DELETE
 
 ## Documentação
 
-A documentação técnica do projeto está disponível no [GitHub Pages](https://jeanvitorvieira.github.io/trabalho-eng-dados-apache-spark-minio/), caso esteja habilitado para este repositório.
-
-Ela também pode ser executada localmente com o MkDocs:
-
-```bash
-poetry run mkdocs serve
-```
-
-Para gerar os arquivos estáticos da documentação:
-
-```bash
-poetry run mkdocs build
-```
+A documentação técnica do projeto está disponível em [GitHub Pages](https://jeanvitorvieira.github.io/trabalho-eng-dados-apache-spark-minio/)
 
 ## Pré-requisitos
 
