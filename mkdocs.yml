@@ -56,6 +56,13 @@ markdown_extensions:
   - toc:
       permalink: true
 
+
 nav:
-  - Home: index.md
-  - Extração para Landing Zone: database_to_landing.md
+  - Início: index.md
+  - Pipeline:
+      - PostgreSQL para MinIO: database_to_landing.md
+      - MinIO para Delta Lake: landing_to_bronze.md
+      - Operações DML: delta_dml.md
+  - Conceitos:
+      - Tabelas gerenciadas e não gerenciadas: tabelas_delta.md
+  - Execução: execucao.md
